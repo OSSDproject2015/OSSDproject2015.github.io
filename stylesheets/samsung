@@ -47,7 +47,7 @@ tr#content td#right{
 	vertical-align: top;
 	border-left: 0px solid black;
 	}
-tr#content td#right table#samsung{
+tr#content td#right table#model{
 
 
 	width:90%;
