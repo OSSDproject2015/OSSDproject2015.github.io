@@ -54,7 +54,7 @@
         </td>
         <!--row partition-->
         <td id="right">
-           <table id="samsung"  border="2">
+           <table id="model"  border="2">
                     <th colspan="4"><h1 style="color:grey"><strong><CENTER>Samsung SmartPhone</CENTER></strong></h1></th>
                    
                     
