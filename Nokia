@@ -1,8 +1,8 @@
- <!doctype html>
+﻿ <!doctype html>
 <html>
 	<head>
 		<title>MobilePhoneprices.com</title>
-  		<link rel="stylesheet" href="css/style.css"/>
+  		<link rel="stylesheet" href="stylesheets/style.css"/>
 	</head>
 
 	<body>
@@ -18,9 +18,9 @@
     <!-- 2nd row-->
     <tr id="img" >
         <td colspan="2">
-                   <img src="img/m.jpg"alt="mobile world" style="width:400px;height:250px"/>
-                   <img src="img/abc.jpg"alt="mobile world" style="width:400px;height:250px"/>
-                   <img src="img/m2.jpg"alt="mobile world" style="width:400px;height:250px"/>        
+                   <img src="images/m.jpg"alt="mobile world" style="width:400px;height:250px"/>
+                   <img src="images/abc.jpg"alt="mobile world" style="width:400px;height:250px"/>
+                   <img src="images/m2.jpg"alt="mobile world" style="width:400px;height:250px"/>        
 
         </td>
     </tr>
