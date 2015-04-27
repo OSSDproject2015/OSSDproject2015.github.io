@@ -1,5 +1,5 @@
 body{
-	background:#C0C0C0;
+	color:white;
 	width: auto;
 	font-family:  sans-serif;
 	margin: auto;
@@ -9,7 +9,7 @@ body{
 pre{
 
 	background:#525252;
-	 color:black;
+	 color:white;
 	 font-size:150%;
 		
 }

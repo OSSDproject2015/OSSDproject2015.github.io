@@ -7,10 +7,8 @@
 
 
 }
-body{
-	background:#C0C0C0;
 
-}
+ 
 
 table#fpg{
 	border: 0px ;
@@ -25,7 +23,7 @@ table#fpg{
 tr#banner{
 	height: 100px;
 	background:#525252;
-	 color:black;
+	 color:white;
 	 font-size:150%;
 	
 }
@@ -52,7 +50,6 @@ tr#content td#right table#model{
 
 	width:90%;
 	height: 80%;
-		background-color: white;
 	 
 }
 
@@ -61,7 +58,7 @@ tr#content td#right table#model{
 tr#content td#left{
 	width: 20%;
 	vertical-align: top;
-	tex
+	
 	}
 tr#content td#left table#brand{
 
@@ -91,7 +88,7 @@ a{
 	font-size: 30px
 }
 a#model{
-	color: grey;
+	color: white;
 	font-family:  Monospace,serif,Verdana, Arial, Helvetica;
 	text-decoration: line;
 	padding: 5px;
@@ -99,3 +96,4 @@ a#model{
 
 }
 
+h1{color: white;}
