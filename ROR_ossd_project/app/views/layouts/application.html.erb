@@ -1,13 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ROROssdProject</title>
+  <title>MobilePhoneprices.com</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
    <%= csrf_meta_tags %>
+  <style>
+      body {
+          background-image: url("images/bn.jpg");
+      }
+
+  </style>
 </head>
 <body>
 
-<%= yield %>
+
+<table id="fpg">
+  <!-- first row-->
+  <tr id="banner" >
+    <td colspan="2">
+      <pre><strong>SmartPhone World<BR>MobilePhoneprices.com<br></strong><input type="text" name="search" va50"" placeholder="Google Search"></pre>
+    </td>
+  </tr>
+  <!-- 2nd row-->
+  <tr id="img" >
+    <td colspan="2">
+      <img src="assets/images/m.jpg"alt="mobile world" style="width:400px;height:250px"/>
+      <img src="images/abc.jpg"alt="mobile world" style="width:400px;height:250px"/>
+      <img src="images/m2.jpg"alt="mobile world" style="width:400px;height:250px"/>
+
+    </td>
+  </tr>
+  <!--3rd row-->
+  <tr id="content">
+
+    <td id="left">
+
+      <table id="brand" border="2">
+        <th ><a><strong><CENTER>Brands</CENTER></strong></a></th>
+
+
+        <tr><td><a href="Samsung.html"target="_blank">Samsung</a></td></tr>
+        <tr><td><a href="Iphone.html"target="_blank">Iphone</a></td></tr>
+        <tr><td><a href="Gfive.html"target="_blank">G'five</a></td></tr>
+        <tr><td><a href="SONY.html"target="_blank">SONY</a></td></tr>
+        <tr><td><a href="HTC.html"target="_blank">HTC</a></td></tr>
+        <tr><td><a href="OPPO.html"target="_blank">OPPO</a></td></tr>
+        <tr><td><a href="Nokia.html"target="_blank">Nokia</a></td></tr>
+        <tr><td><a href="Huawei.html"target="_blank">Huawei</a></td></tr>
+        <tr><td><a href="RIVO.html"target="_blank">RIVO</a></td></tr>
+        <tr><td><a href="LG.html"target="_blank">LG</a></td></tr>
+        <tr><td><a href="Motorola.html"target="_blank">Motorola</a></td></tr>
+        <tr><td><a href="Voice.html"target="_blank">Voice</a></td></tr>
+        <tr><td><a href="BlackBerry.html"target="_blank">BlackBerry</a></td></tr>
+        <tr><td><a href="Qmobile.html"target="_blank">Qmobile</a></td></tr>
+        <tr><td><a href="Lenovo.html"target="_blank">Lenovo</a></td></tr>
+        <tr><td><a href="Microsoft.html"target="_blank">Microsoft</a></td></tr>
+
+      </table>
+    </td>
+    <!--row partition-->
+    <%= yield %>
+  </tr>
+  <!--4th row-->
+  <tr id="footer">
+    <td colspan="2">
+      Copyright © 2015 www.mobilephoneprice.com.pk. All Rights Reserved.
+
+    </td>
+  </tr>
+
+</table>
+
+
+
+
+
+
 
 </body>
 </html>

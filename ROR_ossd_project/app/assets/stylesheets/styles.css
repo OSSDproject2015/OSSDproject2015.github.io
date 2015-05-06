@@ -1,0 +1,19 @@
+body{
+	color:white;
+	width: auto;
+	font-family:  sans-serif;
+	margin: auto;
+	text-align:center;
+}
+
+pre{
+
+	background:#525252;
+	 color:white;
+	 font-size:150%;
+		
+}
+#section {
+    width:center;
+    padding:8px;	 	 
+}
