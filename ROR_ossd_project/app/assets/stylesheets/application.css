@@ -23,7 +23,9 @@
 
 }
 body{
-    background-color: #c0c0c0;
+    background-image: url("bn.jpg");
+    background-size: 100%;
+
 }
 
 
@@ -80,7 +82,7 @@ tr#content td#left{
 tr#content td#left table#brand{
 
     width:30px;
-    background: #525252;
+
 }
 
 
@@ -98,7 +100,7 @@ tr#footer{
 
 
 a{
-    color: black;
+    color: whitesmoke;
     font-family:  Monospace,serif,Verdana, Arial, Helvetica;
     text-decoration: none;
     padding: 5px;
@@ -107,7 +109,7 @@ a{
 
 }
 a#model{
-    color: black;
+    color: whitesmoke;
     font-family:  Monospace,serif,Verdana, Arial, Helvetica;
     text-decoration: line;
     padding: 5px;
@@ -115,4 +117,4 @@ a#model{
 
 }
 
-h1{color: black;}
+h1{color: #ffffff;}
