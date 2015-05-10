@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'ror/lg'
+
   get 'ror/Blackberry'
 
   get 'ror/Gfive'
