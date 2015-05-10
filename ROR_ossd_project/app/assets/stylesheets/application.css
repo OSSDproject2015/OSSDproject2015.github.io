@@ -103,3 +103,9 @@ a#model{
 }
 
 h1{color: #ffffff;}
+
+
+pre{
+    color:white;
+    font-size:150%;
+}
