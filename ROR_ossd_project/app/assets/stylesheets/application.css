@@ -23,7 +23,7 @@
 
 }
 body{
-    background-image: url("bn.jpg");
+    background-image: url("bn1.jpg");
     background-size: 100%;
 
 }
@@ -36,20 +36,6 @@ table#fpg{
     margin-right: auto;
     margin-left: auto;
 }
-
-
-
-tr#banner{
-    height: 100px;
-    background:#525252;
-    color:black;
-    font-size:150%;
-
-}
-
-
-
-
 tr#img{
     height: 250px;
 }
